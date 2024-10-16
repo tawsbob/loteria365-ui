@@ -58,7 +58,9 @@ body {
   }
   
   .footer-section ul li a {
-    color: #333;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    color: var(--cinza);
     text-decoration: none;
     transition: color 0.3s ease;
   }
@@ -96,4 +98,14 @@ body {
         align-items: center;
         padding: 10px;
     }
+  }
+
+  .rights {
+    font-family: "Onest" , sans-serif;
+  }
+
+  .linha-divisoria {
+    border-bottom: 1px solid var(--cinza-escuro);
+    width: 100%;
+    margin: 10px 0;
   }
