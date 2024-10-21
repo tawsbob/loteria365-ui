@@ -3,6 +3,11 @@
     --cinza-escuro: #545f71;
 }
 
+.wrapper {
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -26,7 +31,16 @@ body {
     flex: 1;
     margin: 10px 20px;
   }
-  
+
+  .footer-section.links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 200px; 
+    margin: 0 auto;
+  }
+
   .logo img {
     max-width: 150px;
   }
